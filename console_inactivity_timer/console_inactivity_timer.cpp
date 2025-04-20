@@ -27,3 +27,9 @@ void inactivity_timer(int seconds) {
         std::this_thread::sleep_for(std::chrono::milliseconds(100));
     }
 }
+
+//==============DEBUG==============
+/*
+std::thread timer(inactivity_timer, 100);
+timer.detach();
+*/

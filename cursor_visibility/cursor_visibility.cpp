@@ -12,3 +12,10 @@ void showCursor() {
     cursor.bVisible = 1;
     SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &cursor);
 }
+
+//==============DEBUG==============
+/*
+ hideCursor()
+
+ showCursor()
+*/
